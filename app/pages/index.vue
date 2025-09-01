@@ -1,7 +1,7 @@
 <template>
   <div class="font-mono font-bold">
-    <Header />
-    <main class="text-white bg-white/10 p-5">
+    <Header>Landing Page</Header>
+    <main class="text-white p-5 min-h-screen max-w-[70rem] mx-auto">
       <div>
         <p class="translate-y-[25px]">hi,</p>
         <p>i'm <span class="name text-5xl">Rho</span>.</p>
@@ -26,13 +26,15 @@
           </li>
         </ul>
       </div>
-      <p class="my-5">check out my projects</p>
-      <ul class="flex gap-5 items-center justify-center">
-        <li>
-          <Card>Arkez</Card>
-        </li>
-        <li><Card>Test</Card></li>
-      </ul>
+      <div class="flex flex-col items-center justify-center">
+        <p class="my-5">check out my projects</p>
+        <ul class="flex flex-wrap gap-5 items-center justify-center">
+          <li>
+            <Card>Arkez</Card>
+          </li>
+          <li><Card>Test</Card></li>
+        </ul>
+      </div>
     </main>
     <Footer />
   </div>

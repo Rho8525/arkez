@@ -1,7 +1,7 @@
 <template>
   <div class="sticky top-0 text-white">
     <header class="flex items-center justify-between p-5 bg-black/70">
-      <p>this is header</p>
+      <slot />
       <div class="flex gap-5">
         <NuxtLink to="https://github.com/rho8525/arkez">
           <NuxtImg class="invert" src="github.png" width="25" height="25" />

@@ -1,9 +1,9 @@
 <template>
   <div class="text-white">
-    <Header />
-    <main class="p-5 bg-white/10">
-      <p class="text-5xl">about me</p>
-      <p class="my-2">
+    <Header>Hear Me Out</Header>
+    <main class="p-5 max-w-[70rem] mx-auto">
+      <p class="text-3xl">About Me</p>
+      <!-- <p class="my-2">
         im just an ordinary boy, the last child. from middle to lower family. i
         get to go into highschool while my brothers stop after graduated from
         middle school. i had interest in technologies, it all started because i
@@ -46,6 +46,50 @@
         the stright way, im a stray that can go back but hesitated. anyway,
         thats all, im a lazy guy after all. i need to work on myself more
         actually.
+      </p> -->
+      <!-- ai version bcz mine is sucks -->
+      <p class="my-2">
+        I'm just an ordinary guy, the youngest of the family. My brothers all
+        stopped their education after middle school, but I was lucky enough to
+        be the only one who got to go to high school. My interest in technology
+        started with a tablet my brother let me borrow. At first, I just played
+        games on it. Then, when I started middle school, my parents bought me my
+        very first phone for online assignments during COVID. I was so happy,
+        but I quickly realized I didn't know what to look for in a device. It
+        was a low-end phone, and I regretted it almost instantly. It was
+        frustrating seeing other kids play the games they wanted while my phone
+        struggled. That frustration pushed me to search for lightweight games.
+        After a while, I thought, "Why not make my own?" I decided to try
+        creating games on my phone using HTML5 Canvas, following tutorials
+        online. Learning new languages, even just to print "Hello, world,"
+        brought me so much joy. Then I discovered Lua and the Love2D game
+        framework. I started following tutorials, but there weren't many
+        available on YouTube. I made some progress, but then I hit a wall: I
+        needed a map editor called Tiled, which wasn't available on phones. To
+        keep going, I installed a Windows emulator just so I could run the
+        program. Long story short, I eventually gave up. I felt like the problem
+        wasn't my device, but me. I lost my motivation to continue. But I still
+        wanted to make games for fun, even if it was just starting a new
+        project. I heard about Godot and installed the Android version, but the
+        user interface was so difficult on a phone. I eventually abandoned all
+        the projects I had worked on. In my second year of high school, I got a
+        new, more decent phone. I switched my focus to web development, using an
+        app called Termux to learn languages like JavaScript, TypeScript, C++,
+        and Python. Then, in my third year, I got my first laptop. Just like
+        with my first phone, I immediately regretted the choice. But I have to
+        stick with it for now, and I'm still learning new things. It's hard to
+        do what you want if you don't have the right tools, but "hard" doesn't
+        mean "impossible." It just means there are more obstacles to overcome. I
+        don't think I'm smart, but people often expect a lot from me. I feel
+        like a fool, and I can't deny that I probably am. I often wonder if I
+        should have made different choices. To be honest, I feel lost. Like I've
+        strayed from the right path, and I'm hesitant to go back. I know I'm
+        lazy, and I need to work on myself more.
+      </p>
+      <p>
+        i know there are people suffering more than me, that's why i will start
+        to be grateful for what i have, from now on until die. and i hope i can
+        help those in need before the world ends.
       </p>
     </main>
     <Footer />
