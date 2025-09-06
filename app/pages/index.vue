@@ -14,7 +14,7 @@
       >
         test
       </button>
-      <p v-if="pending">loading...</p>
+      <!-- <p v-if="pending">loading...</p>
       <div v-else-if="error">
         <p>error: {{ error.message }}</p>
       </div>
@@ -25,7 +25,7 @@
             {{ item.name }}
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="flex flex-col items-center justify-center">
         <p class="my-5">check out my projects</p>
         <ul class="flex flex-wrap gap-5 items-center justify-center">
@@ -47,7 +47,7 @@ function test() {
   alert("testing");
 }
 
-const { data, pending, error } = await useFetch("http://localhost:8000/");
+// const { data, pending, error } = await useFetch("http://localhost:8000/");
 </script>
 <style scoped>
 .name {

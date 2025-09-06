@@ -25,6 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      
+      - name: Clean output
+        run: rm -rf .output dist
 
       - name: Install dependencies
         run: npm ci
