@@ -88,8 +88,8 @@
       </p>
       <p>
         i know there are people suffering more than me, that's why i will start
-        to be grateful for what i have, from now on until die. and i hope i can
-        help those in need before the world ends.
+        to be grateful for what i have, from now on until i die. and i hope i can be any of
+        help to those people in needs before the world ends.
       </p>
     </main>
     <Footer />

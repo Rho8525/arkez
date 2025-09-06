@@ -3,6 +3,6 @@
 </template>
 <style>
 body {
-  background-color: black;
+  background-color: #121212ff;
 }
 </style>

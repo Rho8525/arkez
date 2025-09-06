@@ -1,7 +1,7 @@
 <template>
   <div class="font-mono font-bold">
     <Header>Landing Page</Header>
-    <main class="text-white p-5 min-h-screen max-w-[70rem] mx-auto">
+    <main class="text-white p-5 min-h-screen bg-[#121212ff] max-w-[70rem] mx-auto">
       <div>
         <p class="translate-y-[25px]">hi,</p>
         <p>i'm <span class="name text-5xl">Rho</span>.</p>
@@ -29,10 +29,9 @@
       <div class="flex flex-col items-center justify-center">
         <p class="my-5">check out my projects</p>
         <ul class="flex flex-wrap gap-5 items-center justify-center">
-          <li>
-            <Card>Arkez</Card>
-          </li>
-          <li><Card>Test</Card></li>
+          <li><NuxtLink to='https://github.com/rho8525/arkez'><Card>Arkez</Card></NuxtLink></li>
+          <li><NuxtLink to='https://github.com/rho8525/rhalq'><Card>Rhalq</Card></NuxtLink></li>
+          <li><NuxtLink to='https://github.com/rho8525/test'><Card>Test</Card></NuxtLink></li>
         </ul>
       </div>
     </main>
